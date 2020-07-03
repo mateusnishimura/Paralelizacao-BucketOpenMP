@@ -9,6 +9,8 @@ A versão inicial do código Bucket Sort foi retirada do site [Programiz](https:
 Os testes de desempenho foram realizados no [Coliru](https://coliru.stacked-crooked.com/ "Coliru") onde eles podem ser compilados e executados usando o comando:
 `g++ -std=c++17 -O2 -Wall -fopenmp -pedantic main.cpp && time ./a.out`
 
+A tabela a seguir demonstra o desempenho da versão sequencial e versão paralela comparados. Os números linkados redirecionam para o site Coliru que mostram os testes realizados e também possibilitam a execução ou edição do código.
+
 |  Nº de elementos | Nº baldes  | Intervalo | Versão Sequencial  | Versão  Paralela  |
 | :------------: | :------------: | :------------: | :------------: | :------------: |
 | 100  | 100  | 100  | [0.010s](https://coliru.stacked-crooked.com/a/9b2b0b8d7a52ce79 "0.010s")  | [0.09s](https://coliru.stacked-crooked.com/a/93490aa04f06d355 "0.09s")  |
